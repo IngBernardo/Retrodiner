@@ -366,7 +366,8 @@ img {
 #body .content div div p a:hover {
 	color :#80210b;
 }
-#body .content div div h1 {
+#body .content div div h1,
+#body .content div div h2.category {
 	font-family :'Lobster1.4Regular';
 	font-size :36px;
 	color :#1b6568;
@@ -391,7 +392,7 @@ img {
 #body .content div div ul li.last {
 	border :none;
 }
-#body .content div div ul li h2 {
+#body .content div div ul li h3 {
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
 	color :#822619;
@@ -446,6 +447,11 @@ img {
 	text-align :center;
 	padding-top :30px;
 }
+#body .menu-sidebar {
+	float :right;
+	margin-right :20px;
+}
+#body .sidebar h1,
 #body .sidebar h2 {
 	color :#1b6568;
 	font-family :'Lobster1.4Regular';
@@ -626,7 +632,7 @@ img {
 	color :#1b6568;
 	text-decoration :none;
 }
-#body div#section div.section div div h3 {
+#body div#section div.section div div p.byline {
 	font-family :'NunitoRegular';
 	color :#4c1407;
 	font-size :14px;
@@ -635,7 +641,7 @@ img {
 	padding :0;
 	width :auto;
 }
-#body div#section div.section div div h3 a {
+#body div#section div.section div div p.byline a {
 	color :#80210b;
 	text-decoration :underline;
 }
@@ -725,7 +731,7 @@ img {
 	margin :10px 0;
 	padding :0;
 }
-#footer div ul li h3 {
+#footer div ul li p.hotline {
 	color :#ebe9d7;
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
@@ -733,7 +739,7 @@ img {
 	margin :10px 0;
 	padding :0;
 }
-#footer div ul li h3 a {
+#footer div ul li p.hotline a {
 	color :#ebe9d7;
 }
 #footer div ul li ul {
